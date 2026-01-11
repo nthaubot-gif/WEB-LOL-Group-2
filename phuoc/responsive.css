@@ -636,7 +636,7 @@
     }
     
     .footer-nav-top {
-        padding: 16px;
+        /* padding: 16px; */
         height: auto;
     }
     
@@ -696,13 +696,23 @@
     .footer-logos .vng-logo-footer {
         font-size: 22px;
     }
+    
 }
 
 /* ====================================================
    MOBILE SMALL (320px - 479px)
    ==================================================== */
 @media (max-width: 479px) {
+    /* --- Footer --- */
+    .footer-logos {
+        flex-direction: column;
+        gap: 15px;
+    }
     
+    .footer-nav-top ul, .footer-nav-bottom ul {
+        flex-direction: column; /* Menu footer xếp dọc */
+        gap: 15px;
+    }
     /* HEADER ADJUSTMENTS */
     .header-container {
         padding: 8px 12px;
@@ -922,6 +932,8 @@
     /* FOOTER */
     .footer-nav-top ul,
     .footer-nav-bottom ul {
+        display: flex;
+        flex-direction: column;
         gap: 6px 12px;
     }
     
