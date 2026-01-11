@@ -60,12 +60,28 @@
 
 
         /* --- Styling cho Header --- */
-        .main-header {
+        /* .main-header {
             background-color: #111;
             border-bottom: 1px solid #222;
             padding: 0 20px;
             position: relative;
             z-index: 1000;
+            
+
+
+        } */
+        .main-header {
+        background-color: #111;
+        border-bottom: 1px solid #222;
+        padding: 0 20px;
+        
+        /* --- CÁC THAY ĐỔI ĐỂ CỐ ĐỊNH HEADER --- */
+        position: fixed;       /* Giúp header dính chặt vào màn hình */
+        top: 0;                /* Căn sát mép trên */
+        left: 0;               /* Căn sát mép trái */
+        width: 100%;           /* Kéo dài full chiều rộng màn hình */
+        z-index: 1000;         /* Đảm bảo header luôn nằm đè lên các phần tử khác */
+        box-sizing: border-box;/* Đảm bảo padding không làm vỡ giao diện ngang */
         }
 
         .main-nav {
