@@ -2335,3 +2335,12 @@
     }
 
 }
+@media (max-width: 400px) {
+    .mode-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .mode-selector{
+        gap:15%;
+    }
+}
