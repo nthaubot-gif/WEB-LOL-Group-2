@@ -1782,7 +1782,10 @@ color: #0A1428;
             text-align: left;
             line-height: 1.5;
         }
-
+        .rating-logo{
+            display: flex;
+            justify-content: center;
+        }
 /* end footer */
 /* Animation */
 @keyframes fadeIn {
