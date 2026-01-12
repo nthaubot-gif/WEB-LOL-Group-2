@@ -507,7 +507,8 @@
     background: #252525; /* Màu nền xám đậm như hình */
     padding: 8px;
     border-radius: 8px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    margin-left: 160px;
 }
 
 /*End Header Right */
