@@ -1,5 +1,5 @@
 /* Header styles extracted from style.css */
-.header-container {
+/* .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,8 +10,25 @@
     box-sizing: border-box;
     position: static;
     background-color: rgb(0, 0, 0);
+} */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0); /* Đảm bảo nền đen để không bị lọt chữ dưới */
+    color: white;
+    padding: 10px 30px;
+    height: 80px;
+    box-sizing: border-box;
+    
+    /* --- CÁC DÒNG QUAN TRỌNG CẦN SỬA --- */
+    position: fixed; /* Thay static bằng fixed */
+    top: 0;          /* Dính sát mép trên */
+    left: 0;         /* Dính sát mép trái */
+    width: 100%;     /* Chiều rộng full màn hình */
+    z-index: 9999;   /* Đảm bảo header nằm đè lên mọi nội dung khác */
+    /* ----------------------------------- */
 }
-
 /*Begin Header Left */
 .header-left {
     display: flex;
